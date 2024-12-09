@@ -1,0 +1,47 @@
+
+[
+
+    {
+        "formData": {
+            "action": "/submit",
+            "method": "POST",
+            "class": "nlForm"
+        }
+    },
+
+    {   
+        "formEmail": {
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "placeholder": "Entxer your Email..",
+            "class": "nlInput"
+        }
+    },
+    {   
+        "formFirst": {
+            "name": "first",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter your Name..",
+            "class": "nlInput"
+        }
+    },
+    {   
+        "formLast": {
+            "name": "last",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter your Name..",
+            "class": "nlInput"
+        }
+    },
+    
+    {
+        "formBtn":{
+            "type": "submit",
+            "text": "Subscribe Today!",
+            "class":"nlBtn"
+        }
+    }
+]
