@@ -1,1 +1,279 @@
-/* paste css here */
+
+html{
+    background-image: linear-gradient(180deg, rgb(177, 248, 193), rgb(161, 221, 211));
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif, Arial;
+    color: #000000;
+    background-color: #cae6d2;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    color: #000000;
+    background-color: #76b497;
+    text-align: center;
+    height: 100px;
+}
+
+h1 > header {
+    line-height: 200;
+    padding-top: 16px;
+}
+
+nav {
+	text-align: center;
+	padding: 8px;
+	height: 100px;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	display: inline;
+	padding: 25px;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover {
+    color: rgb(124, 89, 114);
+}
+
+nav a:visited {
+    color: rgb(71, 79, 100);
+}
+
+main {
+	margin-top: 10px;
+	margin-bottom: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 16px;
+	border: 2px solid #a6a0ba;
+	border-radius: 20px;
+}
+
+section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: #e4d8c5;
+	display: flex;
+	flex-wrap: wrap;
+    
+}
+
+.members {
+	/*height: 450px;*/
+	width: 40%;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 11px;
+	padding-right: 11px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.members > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 60%;
+}
+
+article{
+	display: block;
+	unicode-bidi: isolate;
+}
+
+.members > figure > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 60%;
+}
+
+.btn {
+	background-color: #b8195a;
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	border: 2px solid #38001c;
+	text-transform: uppercase;
+	border-radius: 10px;
+    align-self: center;
+	transform: translateX(50%);
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #7f869a;
+}
+
+
+footer {
+	background-color: #8f8575;
+	font-size: 0.9em;
+	text-align: center;
+	color: #000000;
+	padding: 16px;
+	margin-top: 32px;
+}
+
+footer > a:hover {
+	color: #fff;
+}
+
+.active {
+	border-bottom: 3px solid #32312f;
+}
+
+#hamburger {
+	float: right;
+	display: none;
+	background-color: #7f869a;
+	padding: 2%;
+	opacity: 0.5;
+}
+
+.dateAtt {
+	color: dodgerblue;
+}
+
+form {
+	display: flex;
+}
+fieldset {
+	margin: auto 2% auto 2%;
+	width: 100%;
+	border: solid 3px #7f869a;
+	border-radius: 5px;
+}
+legend {
+	padding: 5px;
+	font-size: medium;
+	word-spacing: 4px;
+}
+input {
+	display: block;
+	width: 95%;
+	padding: 10px;
+	margin: 0px 5px 0px 5px;
+	border: solid 1px dodgerblue;
+}
+textarea {
+	display: block;
+	width: 95%;
+	padding: 10px;
+	margin: 0px 5px 0px 5px;
+	border: solid 1px dodgerblue;
+}
+label {
+	display: block;
+	width: 100%;
+	margin: 1%;
+}
+.msgBtn {
+	background-color: #940019;
+	color: #fff;
+	padding: 6px 10px 6px 10px;
+	font-weight: 700px;
+	font-size: 16px;
+	border: solid 2px #77001ec7;
+	margin: auto;
+	width: 50px;
+	min-width: 150px;
+	border-radius: 10px;
+	transform: translateX(-50%);
+}
+
+.msgBtn:hover {
+	color: #fff;
+	background-color: #7f869a;
+}
+
+@media only screen and (max-width:786px) {
+    html{
+        background-image: linear-gradient(180deg, rgb(177, 248, 193), rgb(161, 221, 211));
+        height: 100%;
+    }
+	header {
+		height: 9vh;
+	}
+	header h1 {
+		display: inline-block;
+		line-height: 50%;
+	}
+	#wrapper {
+		position: relative;
+	}
+	nav {
+		position: absolute;
+		right: 10px;
+		top: 80px;
+	}
+	nav > ul {
+		height: 0px;
+		overflow: hidden;
+	}
+	.showNav {
+		height: 300px;
+	}
+	nav > ul > li {
+		display: block;
+		width: 70%;
+		padding: 10px;
+		font-size: small;
+	}
+	#hamburger {
+		display: block;
+	}
+	.members {
+		width:92%;
+		background-color: white;
+		padding: 24px 11px;
+		margin: auto auto 20px 15px;
+		border-radius: 20px;
+		box-sizing: border-box;
+        display: inline;
+	}
+	.members > img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20%;
+		height: 20%;
+	}
+	.members > figure > img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 100%;
+	}
+    .btn{
+    align-self: center;
+    }
+}

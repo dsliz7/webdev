@@ -1,0 +1,45 @@
+{
+    "formData": {
+        "action": "/submit",
+        "method": "POST",
+        "class": "nlForm"
+    },
+
+    "formFirst": {
+        "name": "first",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your first name..",
+        "class": "nlInput"
+    },
+
+    "formLast": {
+        "name": "last",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your last name..",
+        "class": "nlInput"
+    },
+
+    "formEmail": {
+        "name": "email",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email..",
+        "class": "nlInput"
+    },
+
+    "formText": {
+        "name": "feedback",
+        "type": "text",
+        "required": true,
+        "placeholder": "Give us feedback..",
+        "class": "nlInput"
+    },
+
+    "formBtn": {
+        "type": "submit",
+        "class": "nlBtn",
+        "text": "Subscribe Today!"
+    }
+}

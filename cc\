@@ -14,7 +14,7 @@
             "name": "email",
             "type": "email",
             "required": true,
-            "placeholder": "Entxer your Email..",
+            "placeholder": "Enter your email..",
             "class": "nlInput"
         }
     },
@@ -23,7 +23,7 @@
             "name": "first",
             "type": "text",
             "required": true,
-            "placeholder": "Enter your Name..",
+            "placeholder": "Enter your first name..",
             "class": "nlInput"
         }
     },
@@ -32,7 +32,17 @@
             "name": "last",
             "type": "text",
             "required": true,
-            "placeholder": "Enter your Name..",
+            "placeholder": "Enter your last name..",
+            "class": "nlInput"
+        }
+    },
+
+    {
+        "formText": {
+            "name": "text",
+            "type": "text",
+            "required": true,
+            "placeholder": "Give us feedback..",
             "class": "nlInput"
         }
     },
